@@ -1,0 +1,274 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+.admin-header {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+}
+.admin-header h1 {
+  display: inline;
+}
+.admin-header nav ul {
+  list-style: none;
+  float: right;
+}
+.admin-header nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+.admin-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.dashboard {
+  padding: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.card {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+
+/* Form Section */
+.form-section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.form-section form {
+  display: grid;
+  gap: 10px;
+}
+.form-section input, 
+.form-section textarea,
+.form-section select,
+.form-section button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-section button {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.form-section button:hover {
+  background: #555;
+}
+
+/* Table Section */
+.table-section {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table-section th, 
+.table-section td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+.table-section img {
+  width:38px;
+  height:26px;
+  border-radius: 4px;
+}
+.edit-btn {
+  background: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete-btn {
+  background: #dc3545;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.edit-btn:hover { background: #0056b3; }
+.delete-btn:hover { background: #c82333; }
+
+
+/* Order Status Badges */
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #fff;
+}
+.status.pending { background: #ffc107; }
+.status.processing { background: #17a2b8; }
+.status.completed { background: #28a745; }
+.status.cancelled { background: #dc3545; }
+
+.update-btn {
+  background: #007bff;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.update-btn:hover {
+  background: #0056b3;
+}
+
+.block-btn {
+  background: #ffc107;
+  color: #000;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.block-btn:hover {
+  background: #e0a800;
+}
+
+/* Login Page Styles */
+.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+}
+
+.login-container {
+  background: #fff;
+  padding: 30px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #0056b3;
+}
+
+.form-section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.category-form input,
+.category-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn, .edit-btn {
+  background: #28a745;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-btn:hover, .edit-btn:hover {
+  background: #218838;
+}
+
+ /* Navbar ka design */
+        .admin-header {
+            background-color: #000;  /* black patti */
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .admin-header h1 {
+            color: white;
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .admin-header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;   /* inline horizontal */
+        }
+
+        .admin-header nav ul li {
+            margin-left: 15px;
+        }
+
+        .admin-header nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+        }
+
+        .admin-header nav ul li a:hover,
+        .admin-header nav ul li a.active {
+            background-color: #444;
+        }
+
+        
